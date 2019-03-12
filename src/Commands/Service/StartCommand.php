@@ -3,7 +3,7 @@
 namespace Mix\Tcp\Daemon\Commands\Service;
 
 use Mix\Console\CommandLine\Flag;
-use Mix\WebSocket\Server\WebSocketServer;
+use Mix\Tcp\Server\TcpServer;
 
 /**
  * Class StartCommand
@@ -42,7 +42,7 @@ class StartCommand extends BaseCommand
     public function main()
     {
         // 获取服务信息
-        $server = new WebSocketServer($this->config);
+        $server = new TcpServer($this->config);
         $pid    = $this->getServicePid();
         if ($pid) {
             println(sprintf(self::IS_RUNNING, $pid));
