@@ -1,6 +1,6 @@
 {
   "name": "mix/tcp-daemon",
-  "description": "MixPHP WebSocket 守护程序 http://www.mixphp.cn",
+  "description": "MixPHP Tcp 守护程序 http://www.mixphp.cn",
   "type": "project",
   "keywords": [
     "framework",
