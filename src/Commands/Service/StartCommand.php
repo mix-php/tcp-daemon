@@ -8,7 +8,7 @@ use Mix\Tcp\Server\TcpServer;
 /**
  * Class StartCommand
  * @package Mix\Tcp\Daemon\Commands\Service
- * @author LIUJIAN <coder.keda@gmail.com>
+ * @author liu,jian <coder.keda@gmail.com>
  */
 class StartCommand extends BaseCommand
 {
